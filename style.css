@@ -1,0 +1,68 @@
+@font-face {
+    font-family: quicksand;
+    src: url(assets/quicksand-v30-latin-regular.woff);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: 0.5s;
+    font-family: quicksand, sans-serif;
+}
+
+nav{
+    border: 3px solid #6E49EA;
+    border-left: none;
+    border-right: none;
+    height: 60px;
+    background-color: #303330;
+    position: sticky;
+    top: 0;
+    text-align: center;
+}
+
+.bar{
+    display: inline-block;
+    padding: 15px;
+    font-weight: bold;
+    
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+.center{
+    margin-left: -150px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+}
+
+a:hover{
+    background-color: #6E49EA;
+    transition: 0.5s;
+}
+
+/* hero */
+.hero{
+    text-align: center;
+    width: 45%;
+    margin: 30px auto;
+}
+
+.hero h1{
+    margin-bottom: 10px;
+}
+
+h5{
+    line-height: 25px;
+}
