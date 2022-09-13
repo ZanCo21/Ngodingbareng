@@ -93,34 +93,48 @@ h4{
 }
 
 .row{
-    width: 600px;
+    width: 100%;
+    display: flex;
     margin: 10px 0;
 
 }
 
 .row img {
     border: 3px solid #303330;
-    width: 250px;
-    /* margin: 0 5px; */
+    width: 47%;
+    margin: 0 5px;
 }
 
 .jumbo{
     margin: 5px 0;
     float: right;
-    width: 715px;
+    width: 54.5%;
     }
 
 .jumbo img{
     border: 3px solid #303330;
-    width: 715px;
-    height: 515px;
+    width: 100%;
 }
 
 .in{
     display: inline-block;
-    width: 500px;
+    width: 45%;
 }
 
 .slide{
-    padding: 0 50px 6px;
+    padding: 0 4%;
+}
+
+/* article */
+.content{
+    padding: 58px;
+    background-color: #212429;
+}
+
+.content article {
+    color: white;
+    margin: 48px;
+    max-width: 25%;
+    display: inline-block;
+    
 }
