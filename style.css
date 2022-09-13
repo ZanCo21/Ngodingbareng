@@ -1,3 +1,8 @@
+:root{
+     --warna-text : #f6f6f6;
+     --warna-ungu : #6E49EA;
+}
+
 @font-face {
     font-family: quicksand;
     src: url(assets/quicksand-v30-latin-regular.woff);
@@ -59,10 +64,63 @@ a:hover{
     margin: 30px auto;
 }
 
-.hero h1{
+h1{
     margin-bottom: 10px;
 }
 
 h5{
     line-height: 25px;
+}
+
+/* main */
+main{
+    margin-top: 25px;
+    height: fit-content;
+    background-color: var(--warna-text);
+}
+
+.sr h4{
+    margin: 15px auto;
+    border-bottom: 3px solid #6E49EA;
+    max-width: 214px;
+    text-align: center;
+
+}
+
+h4{
+    font-weight: bolder;
+    font-size: 23px;
+}
+
+.row{
+    width: 600px;
+    margin: 10px 0;
+
+}
+
+.row img {
+    border: 3px solid #303330;
+    width: 250px;
+    /* margin: 0 5px; */
+}
+
+.jumbo{
+    margin: 5px 0;
+    float: right;
+    width: 715px;
+    }
+
+.jumbo img{
+    border: 3px solid #303330;
+    width: 715px;
+    height: 515px;
+}
+
+.in{
+    display: inline-block;
+    width: 500px;
+}
+
+.slide{
+    padding: 0 50px 6px;
 }
